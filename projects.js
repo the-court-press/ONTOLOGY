@@ -354,7 +354,7 @@ window.GOALS = [
   "color": "#c7773a",
   "description": "Interactive history timelines in one series: the hub plus Chronographs I–VI.",
   "owners": [
-   "Euclid"
+   "Plutarch"
   ],
   "history": [
    {
@@ -373,6 +373,12 @@ window.GOALS = [
     "date": "2026-10-08",
     "approx": false,
     "text": "Chronographs hub; IV–VI named; WW2 rebuilt as a Chronograph, then paused",
+    "kind": "goal"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Plutarch takes over the series; lineup proposal awaits Julius",
     "kind": "goal"
    }
   ]
@@ -2369,12 +2375,12 @@ window.ITEMS = [
   "realm": "EDUCATION",
   "goal": "g-chrono",
   "owners": [
-   "Euclid"
+   "Plutarch"
   ],
   "stage": "Built / Shipped",
   "summary": "Hub page for the series, driven by one data file.",
   "done": "",
-  "next": "",
+  "next": "Julius picks the lineup; Plutarch takes it from there.",
   "history": [
    {
     "date": "2026-10-08",
@@ -2387,9 +2393,21 @@ window.ITEMS = [
     "approx": false,
     "text": "IV–VI named; VI renamed Korea & Vietnam",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Owner changed to Plutarch",
+    "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Plutarch's lineup proposal: keep IV Company-States and VI Korea & Vietnam; fold V Pacific into III as a toggle; add The Heavens (c.150–1687); later VII Tech Tree",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-08",
+  "lastTouched": "2026-10-19",
   "source": "Bot reports (2026-10-09)",
   "links": [
    {
@@ -2399,7 +2417,8 @@ window.ITEMS = [
   ],
   "files": [],
   "updated": "2026-10-19",
-  "waitingOnJulius": false,
+  "waitingOnJulius": true,
+  "decision": "Pick a Chronographs lineup from Plutarch's proposal",
   "health": {
    "stranger": true
   },
@@ -2412,7 +2431,7 @@ window.ITEMS = [
   "realm": "EDUCATION",
   "goal": "g-chrono",
   "owners": [
-   "Euclid"
+   "Plutarch"
   ],
   "stage": "Built / Shipped",
   "summary": "Timeline of the Dow, 1896–2026 (v0.2).",
@@ -2436,9 +2455,15 @@ window.ITEMS = [
     "approx": false,
     "text": "Chronographs series kicker",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Owner changed to Plutarch",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-08",
+  "lastTouched": "2026-10-19",
   "source": "Bot reports (2026-10-09)",
   "links": [
    {
@@ -2461,7 +2486,7 @@ window.ITEMS = [
   "realm": "EDUCATION",
   "goal": "g-chrono",
   "owners": [
-   "Euclid"
+   "Plutarch"
   ],
   "stage": "Built / Shipped",
   "summary": "Three centuries of the Bank, with a yield chart, monarchs band and archive plates.",
@@ -2491,9 +2516,15 @@ window.ITEMS = [
     "approx": false,
     "text": "Crash fix; series kicker",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Owner changed to Plutarch",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-08",
+  "lastTouched": "2026-10-19",
   "source": "Bot reports (2026-10-09)",
   "links": [
    {
@@ -2516,7 +2547,7 @@ window.ITEMS = [
   "realm": "EDUCATION",
   "goal": "g-chrono",
   "owners": [
-   "Euclid"
+   "Plutarch"
   ],
   "stage": "Paused",
   "summary": "Idea: an inset on the South Sea Bubble for Chronograph II.",
@@ -2534,9 +2565,15 @@ window.ITEMS = [
     "approx": false,
     "text": "Moved to Paused",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Owner changed to Plutarch",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-15",
+  "lastTouched": "2026-10-19",
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
@@ -2550,7 +2587,7 @@ window.ITEMS = [
   "realm": "EDUCATION",
   "goal": "g-chrono",
   "owners": [
-   "Euclid"
+   "Plutarch"
   ],
   "stage": "Paused",
   "summary": "Idea: check and add the Dutch East India Company (VOC) thread.",
@@ -2568,9 +2605,15 @@ window.ITEMS = [
     "approx": false,
     "text": "Moved to Paused",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Owner changed to Plutarch",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-15",
+  "lastTouched": "2026-10-19",
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
@@ -2584,7 +2627,7 @@ window.ITEMS = [
   "realm": "EDUCATION",
   "goal": "g-chrono",
   "owners": [
-   "Euclid"
+   "Plutarch"
   ],
   "stage": "Paused",
   "summary": "Week-by-week WW2 paper atlas: 305-week spine, Logbook/Ruler, photo plates.",
@@ -2608,9 +2651,15 @@ window.ITEMS = [
     "approx": false,
     "text": "Control-area / front-line pass started, then paused",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Owner changed to Plutarch",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-08",
+  "lastTouched": "2026-10-19",
   "source": "Bot reports (2026-10-09)",
   "links": [
    {
@@ -2631,7 +2680,7 @@ window.ITEMS = [
   "realm": "EDUCATION",
   "goal": "g-chrono",
   "owners": [
-   "Euclid"
+   "Plutarch"
   ],
   "stage": "Paused",
   "summary": "Company-states from 1492 to 1874.",
@@ -2649,9 +2698,15 @@ window.ITEMS = [
     "approx": false,
     "text": "Moved to Paused",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Owner changed to Plutarch",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-15",
+  "lastTouched": "2026-10-19",
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
@@ -2665,7 +2720,7 @@ window.ITEMS = [
   "realm": "EDUCATION",
   "goal": "g-chrono",
   "owners": [
-   "Euclid"
+   "Plutarch"
   ],
   "stage": "Paused",
   "summary": "The Asia & Pacific war, 1937–45.",
@@ -2683,9 +2738,21 @@ window.ITEMS = [
     "approx": false,
     "text": "Moved to Paused",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Owner changed to Plutarch",
+    "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Proposed: fold into III as a toggle",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-15",
+  "lastTouched": "2026-10-19",
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
@@ -2699,7 +2766,7 @@ window.ITEMS = [
   "realm": "EDUCATION",
   "goal": "g-chrono",
   "owners": [
-   "Euclid"
+   "Plutarch"
   ],
   "stage": "Paused",
   "summary": "The Korea and Vietnam wars, week by week, 1950–75.",
@@ -2723,9 +2790,15 @@ window.ITEMS = [
     "approx": false,
     "text": "Moved to Paused",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Owner changed to Plutarch",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-15",
+  "lastTouched": "2026-10-19",
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
@@ -4792,6 +4865,12 @@ window.ITEMS = [
     "approx": false,
     "text": "Teammate replies folded: FDP history series, video map, era deep-dive; ForgePath to Design",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Chronographs to Plutarch; Looseleaf owners; Euclid's Elements card",
+    "kind": "step"
    }
   ],
   "lastTouched": "2026-10-19",
@@ -5023,7 +5102,7 @@ window.ITEMS = [
   "realm": "EDUCATION",
   "goal": "g-chrono",
   "owners": [
-   "Euclid"
+   "Plutarch"
   ],
   "stage": "Paused",
   "summary": "Fix the presidents band on Chronograph I.",
@@ -5041,9 +5120,15 @@ window.ITEMS = [
     "approx": false,
     "text": "Moved to Paused",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Owner changed to Plutarch",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-15",
+  "lastTouched": "2026-10-19",
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
@@ -5057,7 +5142,7 @@ window.ITEMS = [
   "realm": "EDUCATION",
   "goal": "g-chrono",
   "owners": [
-   "Euclid"
+   "Plutarch"
   ],
   "stage": "Paused",
   "summary": "Small typography idea for The Bank's headlines.",
@@ -5075,9 +5160,15 @@ window.ITEMS = [
     "approx": false,
     "text": "Moved to Paused",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Owner changed to Plutarch",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-15",
+  "lastTouched": "2026-10-19",
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
@@ -5091,7 +5182,7 @@ window.ITEMS = [
   "realm": "EDUCATION",
   "goal": "g-chrono",
   "owners": [
-   "Euclid"
+   "Plutarch"
   ],
   "stage": "Paused",
   "summary": "Monthly control areas, front lines and the Ruler/Logbook layout for Chronograph III.",
@@ -5109,9 +5200,15 @@ window.ITEMS = [
     "approx": false,
     "text": "Moved to Paused",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Owner changed to Plutarch",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-15",
+  "lastTouched": "2026-10-19",
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
@@ -5125,7 +5222,7 @@ window.ITEMS = [
   "realm": "EDUCATION",
   "goal": "g-chrono",
   "owners": [
-   "Euclid"
+   "Plutarch"
   ],
   "stage": "Paused",
   "summary": "Restyle Chronograph III's photo plates.",
@@ -5143,9 +5240,15 @@ window.ITEMS = [
     "approx": false,
     "text": "Moved to Paused",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Owner changed to Plutarch",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-15",
+  "lastTouched": "2026-10-19",
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
@@ -6303,14 +6406,13 @@ window.ITEMS = [
   "realm": "EDUCATION",
   "goal": "g-mathera",
   "owners": [
-   "Euclid",
    "Don",
    "Bob"
   ],
   "stage": "In Progress",
-  "summary": "Worksheet and lesson app for Mathera. Euclid owns; Don designs; Bob builds.",
+  "summary": "Worksheet and lesson app for Mathera. Don designs; Bob builds.",
   "done": "",
-  "next": "Design and builds under Euclid.",
+  "next": "Julius picks from Don's feature ideas.",
   "history": [
    {
     "date": "2026-10-14",
@@ -6329,6 +6431,18 @@ window.ITEMS = [
     "approx": false,
     "text": "Local build v0.4 in testing",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Owners now Don (design) and Bob (builds)",
+    "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Don proposed 28 feature ideas",
+    "kind": "step"
    }
   ],
   "lastTouched": "2026-10-19",
@@ -6337,8 +6451,8 @@ window.ITEMS = [
   "files": [],
   "updated": "2026-10-19",
   "waitingOnJulius": true,
-  "decision": "Test Looseleaf Boards v0.4",
-  "stageNote": "In Progress (Bob: v0.4 in Julius's testing; Euclid: intake)"
+  "decision": "Pick from Don's Looseleaf feature ideas",
+  "stageNote": "In Progress (Bob: v0.4 in Julius's testing)"
  },
  {
   "id": "search-privacy",
@@ -6501,5 +6615,40 @@ window.ITEMS = [
   "updated": "2026-10-19",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
+ },
+ {
+  "id": "euclid-elements",
+  "title": "Euclid's Elements site",
+  "realm": "EDUCATION",
+  "goal": "g-mh101",
+  "owners": [
+   "Euclid"
+  ],
+  "stage": "In Progress",
+  "summary": "Static site for Euclid's Elements. Book I done: 81 items with Heath's text and the Greek, 44 drawn and animated, manipulatives, 8 themes. Unpublished.",
+  "done": "",
+  "next": "Drawings for I.11–I.48, then Books II–XIII.",
+  "history": [
+   {
+    "date": "2026-10-10",
+    "approx": false,
+    "text": "Started",
+    "kind": "first"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Book I: 81 items, 44 drawn and animated, manipulatives, 8 themes",
+    "kind": "step"
+   }
+  ],
+  "lastTouched": "2026-10-19",
+  "source": "Bot reports (2026-10-09)",
+  "links": [],
+  "files": [],
+  "updated": "2026-10-19",
+  "waitingOnJulius": true,
+  "decision": "Decide whether (and how) to publish the Elements site",
+  "stageNote": "In Progress (unpublished)"
  }
 ];
