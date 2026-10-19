@@ -169,7 +169,8 @@ window.GOALS = [
    "Euclid",
    "Patton",
    "Ari The Censor",
-   "Gideon"
+   "Gideon",
+   "Plutarch"
   ],
   "history": [
    {
@@ -414,7 +415,10 @@ window.GOALS = [
   "description": "Personal apps: a private finance app, the TENDER converter, a home page and an income-app idea.",
   "owners": [
    "The Exchequer",
-   "Q"
+   "Q",
+   "Bob",
+   "Don",
+   "Lady Ada"
   ],
   "history": [
    {
@@ -790,7 +794,7 @@ window.ITEMS = [
   "stage": "Built / Shipped",
   "summary": "The Mathera site itself, across every version. Live at mathera.world as v0.6.3 (noindex).",
   "done": "",
-  "next": "mathera.ink DNS still outstanding (point at Graph Lab).",
+  "next": "mathera.ink DNS and the custom-domain email are still outstanding.",
   "history": [
    {
     "date": "2026-09-24",
@@ -895,9 +899,15 @@ window.ITEMS = [
     "approx": false,
     "text": "GitHub org renamed to the-court-press; board and site links updated; www.mathera.world and www.mathera.app now point there",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Pixel trees, single-column tree pages and era deep links #I–#VII live; copy edits shipped",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-16",
+  "lastTouched": "2026-10-19",
   "source": "Bot reports (2026-10-09)",
   "links": [
    {
@@ -908,7 +918,7 @@ window.ITEMS = [
   "files": [],
   "updated": "2026-10-19",
   "waitingOnJulius": true,
-  "decision": "Add the five mathera.ink DNS records in Namecheap (Graph Lab)",
+  "decision": "Add the mathera.ink DNS records (Graph Lab)",
   "versions": [
    {
     "label": "Quintile (early exploration)",
@@ -1122,7 +1132,7 @@ window.ITEMS = [
  },
  {
   "id": "mathera-spine",
-  "title": "Curriculum spine (144 concepts, 1,132 skills)",
+  "title": "Curriculum spine (0.6.4: 1,225 skills)",
   "realm": "EDUCATION",
   "goal": "g-mathera",
   "owners": [
@@ -1130,10 +1140,10 @@ window.ITEMS = [
    "Plutarch",
    "Don"
   ],
-  "stage": "Paused",
-  "summary": "The backbone: 144 concepts in lineages across seven eras, behind 1,132 skills.",
+  "stage": "Built / Shipped",
+  "summary": "The backbone: concepts in lineages across seven eras, now behind 1,225 skills (curriculum 0.6.4, with an IGCSE 0580 bridge).",
   "done": "",
-  "next": "Map it onto Wayfinder.",
+  "next": "Input-ideas doc drafted; next curriculum pass after the FDP pilot work.",
   "history": [
    {
     "date": "2026-09-29",
@@ -1158,15 +1168,21 @@ window.ITEMS = [
     "approx": false,
     "text": "Wayfinder coverage review: ~23% of the spine covered",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Curriculum 0.6.4: IGCSE 0580 bridge, 1,225 skills; Era IV calculus kept as an early preview",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-05",
+  "lastTouched": "2026-10-19",
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
   "updated": "2026-10-19",
   "waitingOnJulius": false,
-  "stageNote": "Paused (Design); last work 2026-10-05"
+  "stageNote": "Built (curriculum 0.6.4 done, per Euclid)"
  },
  {
   "id": "spotlight-pdf",
@@ -1587,10 +1603,10 @@ window.ITEMS = [
   "owners": [
    "Patton"
   ],
-  "stage": "Paused",
+  "stage": "Design",
   "summary": "Wordless math RPG shell: Seed Grove overworld, tile duels, Workshop Isles, familiars.",
   "done": "",
-  "next": "Resume when Julius picks it back up; temporary working name kept.",
+  "next": "Julius answers the design doc's open questions.",
   "history": [
    {
     "date": "2026-10-02",
@@ -1627,9 +1643,15 @@ window.ITEMS = [
     "approx": false,
     "text": "Julius keeps ForgePath as the temporary working name (rename dropped; proposed replacement discarded)",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Moved to Design: map v1 and a 36-page story/design doc",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-14",
+  "lastTouched": "2026-10-19",
   "source": "Bot reports (2026-10-09)",
   "links": [
    {
@@ -1640,7 +1662,7 @@ window.ITEMS = [
   "files": [],
   "updated": "2026-10-19",
   "waitingOnJulius": false,
-  "stageNote": "Paused; last work 2026-10-03",
+  "stageNote": "Design (Euclid, 2026-10-19)",
   "liveUrl": "https://the-court-press.github.io/forgepath/",
   "liveLabel": "Open ForgePath Prequel"
  },
@@ -2979,9 +3001,15 @@ window.ITEMS = [
     "approx": false,
     "text": "Web prototype built",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Repo made private",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-08",
+  "lastTouched": "2026-10-19",
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
@@ -3320,6 +3348,7 @@ window.ITEMS = [
   "files": [],
   "updated": "2026-10-19",
   "waitingOnJulius": false,
+  "decision": "",
   "health": {
    "nextTest": "2026-10-11"
   },
@@ -3360,7 +3389,7 @@ window.ITEMS = [
   "owners": [
    "Arnold"
   ],
-  "stage": "Idea",
+  "stage": "Built / Shipped",
   "summary": "Track recovery, strain and sleep from tracker.",
   "done": "",
   "next": "Choose tracker's official API vs the in-app export.",
@@ -3370,15 +3399,22 @@ window.ITEMS = [
     "approx": false,
     "text": "First discussed: no connector; API vs export undecided",
     "kind": "first"
+   },
+   {
+    "date": "2026-10-18",
+    "approx": false,
+    "text": "Data hookup running; first automatic weekly pull",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-08",
+  "lastTouched": "2026-10-18",
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
   "updated": "2026-10-19",
-  "waitingOnJulius": true,
-  "decision": "Choose tracker's official API or the in-app data export"
+  "waitingOnJulius": false,
+  "decision": "",
+  "stageNote": "Built (tracker API running)"
  },
  {
   "id": "nutrition",
@@ -4012,7 +4048,7 @@ window.ITEMS = [
    "Q",
    "Grok Bot"
   ],
-  "stage": "Design",
+  "stage": "Abandoned / Superseded",
   "summary": "Data pipeline for a private movie app.",
   "done": "",
   "next": "",
@@ -4695,7 +4731,7 @@ window.ITEMS = [
   "stage": "Built / Shipped",
   "summary": "Goals as banners, every piece as a note, dated histories, strict stages.",
   "done": "",
-  "next": "LIFE-look redesign (Don's mockups); fold teammate replies from this Monday ask.",
+  "next": "LIFE-look redesign (Don's mockups); apply Ari's public-board fixes if Julius says yes.",
   "history": [
    {
     "date": "2026-10-09",
@@ -4749,6 +4785,12 @@ window.ITEMS = [
     "date": "2026-10-19",
     "approx": false,
     "text": "Weekly refresh: ForgePath name kept; Looseleaf; search privacy",
+    "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Teammate replies folded: FDP history series, video map, era deep-dive; ForgePath to Design",
     "kind": "step"
    }
   ],
@@ -5846,7 +5888,7 @@ window.ITEMS = [
   "owners": [
    "Gekko"
   ],
-  "stage": "Idea",
+  "stage": "In Progress",
   "summary": "Structured robotaxi industry monitoring: deployed vs announced.",
   "done": "",
   "next": "",
@@ -5856,9 +5898,15 @@ window.ITEMS = [
     "approx": false,
     "text": "First discussed",
     "kind": "first"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Dated record started",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-10",
+  "lastTouched": "2026-10-19",
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
@@ -5886,6 +5934,12 @@ window.ITEMS = [
     "kind": "first"
    },
    {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Decimals and percentages scope still due; FDP glossary under review",
+    "kind": "step"
+   },
+   {
     "date": "2026-10-26",
     "approx": false,
     "text": "Merged FDP map (due)",
@@ -5898,7 +5952,7 @@ window.ITEMS = [
     "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-12",
+  "lastTouched": "2026-10-19",
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
@@ -5930,6 +5984,12 @@ window.ITEMS = [
     "approx": false,
     "text": "Consent pack due",
     "kind": "step"
+   },
+   {
+    "date": "2026-11-09",
+    "approx": false,
+    "text": "Consent pack due",
+    "kind": "step"
    }
   ],
   "lastTouched": "2026-10-12",
@@ -5937,7 +5997,8 @@ window.ITEMS = [
   "links": [],
   "files": [],
   "updated": "2026-10-19",
-  "waitingOnJulius": false
+  "waitingOnJulius": true,
+  "decision": "Give Gideon the consent-pack details: contact email, feedback retention, governing law"
  },
  {
   "id": "brand-sheet",
@@ -5958,14 +6019,21 @@ window.ITEMS = [
     "approx": false,
     "text": "Brand sheet v1 locked at Council",
     "kind": "first"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Branding copy v2 cleared and applied; 'Seven worlds of math' live on the site",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-12",
+  "lastTouched": "2026-10-19",
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
   "updated": "2026-10-19",
-  "waitingOnJulius": false
+  "waitingOnJulius": true,
+  "decision": "Final yes on 'Seven worlds of math' as the official tagline (and Don's revised copy)"
  },
  {
   "id": "court-cards",
@@ -5975,7 +6043,7 @@ window.ITEMS = [
   "owners": [
    "Don"
   ],
-  "stage": "Design",
+  "stage": "Built / Shipped",
   "summary": "Virtual character cards, one per bot.",
   "done": "",
   "next": "Drafts; Julius picks the Paul Allen card.",
@@ -6003,6 +6071,12 @@ window.ITEMS = [
     "approx": false,
     "text": "Looseleaf is its own project (no longer a file handoff on this card)",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Cards finished (internal)",
+    "kind": "step"
    }
   ],
   "lastTouched": "2026-10-19",
@@ -6010,7 +6084,8 @@ window.ITEMS = [
   "links": [],
   "files": [],
   "updated": "2026-10-19",
-  "waitingOnJulius": false
+  "waitingOnJulius": false,
+  "stageNote": "Built (Don: cards finished; titles approved 2026-10-14)"
  },
  {
   "id": "suite-home",
@@ -6021,10 +6096,10 @@ window.ITEMS = [
    "Patton",
    "Don"
   ],
-  "stage": "Design",
+  "stage": "In Progress",
   "summary": "The suite home for all Mathera apps, on subdomains.",
   "done": "",
-  "next": "Don delivers suite-home layout (due 2026-10-19).",
+  "next": "Deploy after Julius's OK and a real Privacy page.",
   "history": [
    {
     "date": "2026-10-12",
@@ -6049,6 +6124,12 @@ window.ITEMS = [
     "approx": false,
     "text": "Layout due today (Don)",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Layout finished and handed to Patton for deploy",
+    "kind": "step"
    }
   ],
   "lastTouched": "2026-10-19",
@@ -6056,8 +6137,9 @@ window.ITEMS = [
   "links": [],
   "files": [],
   "updated": "2026-10-19",
-  "waitingOnJulius": false,
-  "stageNote": "Layout due 2026-10-19 (Don)"
+  "waitingOnJulius": true,
+  "decision": "OK the mathera.app suite home deploy",
+  "stageNote": "Layout finished 2026-10-19; waiting on Julius's OK to deploy"
  },
  {
   "id": "fractions-history",
@@ -6139,9 +6221,9 @@ window.ITEMS = [
    "Patton"
   ],
   "stage": "Built / Shipped",
-  "summary": "Kitchen chapters site (unlisted GitHub Pages, noindex). First seven chapters live.",
+  "summary": "Kitchen chapters site (unlisted, noindex). Chapters 1–10 live; a new chapter every Sunday.",
   "done": "",
-  "next": "Patton checks and publishes each new chapter.",
+  "next": "A new chapter every Sunday.",
   "history": [
    {
     "date": "2026-10-15",
@@ -6166,9 +6248,15 @@ window.ITEMS = [
     "approx": false,
     "text": "Chapter 10 'The Bright Carrot' published",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Chapters 1–10 live; a new chapter every Sunday",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-18",
+  "lastTouched": "2026-10-19",
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
@@ -6194,9 +6282,15 @@ window.ITEMS = [
     "approx": false,
     "text": "First push",
     "kind": "first"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Exercises and playlist video links added",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-17",
+  "lastTouched": "2026-10-19",
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
@@ -6219,10 +6313,22 @@ window.ITEMS = [
   "next": "Design and builds under Euclid.",
   "history": [
    {
+    "date": "2026-10-14",
+    "approx": false,
+    "text": "Mac app blank-screen bug fixed",
+    "kind": "first"
+   },
+   {
     "date": "2026-10-19",
     "approx": false,
     "text": "Owners set: Euclid, Don, Bob",
-    "kind": "first"
+    "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Local build v0.4 in testing",
+    "kind": "step"
    }
   ],
   "lastTouched": "2026-10-19",
@@ -6230,7 +6336,9 @@ window.ITEMS = [
   "links": [],
   "files": [],
   "updated": "2026-10-19",
-  "waitingOnJulius": false
+  "waitingOnJulius": true,
+  "decision": "Test Looseleaf Boards v0.4",
+  "stageNote": "In Progress (Bob: v0.4 in Julius's testing; Euclid: intake)"
  },
  {
   "id": "search-privacy",
@@ -6258,6 +6366,140 @@ window.ITEMS = [
   "links": [],
   "files": [],
   "updated": "2026-10-19",
+  "waitingOnJulius": false,
+  "decision": ""
+ },
+ {
+  "id": "video-map",
+  "title": "YouTube playlist → Mathera map (166 videos)",
+  "realm": "EDUCATION",
+  "goal": "g-mathera",
+  "owners": [
+   "Euclid"
+  ],
+  "stage": "Built / Shipped",
+  "summary": "Maps a 166-video YouTube playlist onto Mathera's eras and skills.",
+  "done": "",
+  "next": "",
+  "history": [
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Done: 166 videos mapped",
+    "kind": "first"
+   }
+  ],
+  "lastTouched": "2026-10-19",
+  "source": "Bot reports (2026-10-09)",
+  "links": [],
+  "files": [],
+  "updated": "2026-10-19",
   "waitingOnJulius": false
+ },
+ {
+  "id": "era-deep-dive",
+  "title": "Weekly era deep-dive (Mon 5 AM)",
+  "realm": "EDUCATION",
+  "goal": "g-mathera",
+  "owners": [
+   "Euclid"
+  ],
+  "stage": "In Progress",
+  "summary": "Weekly deep-dive on one era: Mathera Oct 19–Dec 6, then ForgePath Dec 7–Jan 24.",
+  "done": "",
+  "next": "Week 2 next Monday.",
+  "history": [
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Routine starts; week 1 (Era I) sent",
+    "kind": "first"
+   }
+  ],
+  "lastTouched": "2026-10-19",
+  "source": "Bot reports (2026-10-09)",
+  "links": [],
+  "files": [],
+  "updated": "2026-10-19",
+  "waitingOnJulius": true,
+  "decision": "Answer Euclid's 5 Era I deep-dive questions"
+ },
+ {
+  "id": "private-media-app",
+  "title": "Private media app",
+  "realm": "LIFE",
+  "goal": "g-lifeapps",
+  "owners": [
+   "Bob",
+   "Don",
+   "Lady Ada"
+  ],
+  "stage": "Built / Shipped",
+  "summary": "A private, offline personal app (details private).",
+  "done": "",
+  "next": "",
+  "history": [],
+  "lastTouched": null,
+  "source": "Bot reports (2026-10-09)",
+  "links": [],
+  "files": [],
+  "updated": "2026-10-19",
+  "waitingOnJulius": false,
+  "historyNote": "History kept private."
+ },
+ {
+  "id": "fdp-history",
+  "title": "FDP history series (8 episodes)",
+  "realm": "EDUCATION",
+  "goal": "g-mh101",
+  "owners": [
+   "Plutarch",
+   "Euclid"
+  ],
+  "stage": "In Progress",
+  "summary": "Plutarch's history series behind fractions, decimals and percentages: 8 outlines for the FDP launch.",
+  "done": "",
+  "next": "Close the unverified source gaps; write full episodes after review.",
+  "history": [
+   {
+    "date": "2026-10-14",
+    "approx": false,
+    "text": "8 outlines in review",
+    "kind": "first"
+   },
+   {
+    "date": "2026-10-26",
+    "approx": false,
+    "text": "Review due",
+    "kind": "step"
+   }
+  ],
+  "lastTouched": "2026-10-14",
+  "source": "Bot reports (2026-10-09)",
+  "links": [],
+  "files": [],
+  "updated": "2026-10-19",
+  "waitingOnJulius": false
+ },
+ {
+  "id": "backup-drive",
+  "title": "Backup drive",
+  "realm": "TOOLS",
+  "goal": "g-mac",
+  "owners": [
+   "Q"
+  ],
+  "stage": "Built / Shipped",
+  "summary": "External backup drive with automatic backups.",
+  "done": "",
+  "next": "",
+  "history": [],
+  "lastTouched": null,
+  "source": "Bot reports (2026-10-09)",
+  "links": [],
+  "files": [],
+  "updated": "2026-10-19",
+  "waitingOnJulius": false,
+  "historyNote": "History kept private."
  }
 ];
