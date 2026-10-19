@@ -215,9 +215,9 @@ window.GOALS = [
   "description": "Companion RPG (formerly Numera): a wordless math RPG, separate from Wayfinder.",
   "owners": [
    "Euclid",
-   "Patton",
-   "Plutarch",
-   "Grok Bot"
+   "Miyamoto",
+   "Patton (publishing)",
+   "Plutarch"
   ],
   "history": [
    {
@@ -254,6 +254,12 @@ window.GOALS = [
     "date": "2026-10-14",
     "approx": false,
     "text": "Temporary working name kept; rename dropped",
+    "kind": "goal"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Miyamoto joins as game designer; first-slice plan proposed",
     "kind": "goal"
    }
   ],
@@ -1413,6 +1419,12 @@ window.ITEMS = [
     "approx": false,
     "text": "First built: v1",
     "kind": "first"
+   },
+   {
+    "date": "2026-10-20",
+    "approx": false,
+    "text": "mathera.ink custom domain waits on the DNS step",
+    "kind": "step"
    }
   ],
   "lastTouched": "2026-10-06",
@@ -1425,10 +1437,12 @@ window.ITEMS = [
   ],
   "files": [],
   "updated": "2026-10-19",
-  "waitingOnJulius": false,
+  "waitingOnJulius": true,
+  "decision": "Add the mathera.ink DNS records (same step as the Mathera card)",
   "health": {
    "stranger": true
   },
+  "note": "mathera.ink custom domain is blocked on the Namecheap DNS records, the same step on the Mathera card.",
   "stageNote": "Built/Shipped (MVP)",
   "liveUrl": "https://the-court-press.github.io/graph-lab/",
   "liveLabel": "Open Graph Lab"
@@ -1607,12 +1621,14 @@ window.ITEMS = [
   "realm": "EDUCATION",
   "goal": "g-forgepath",
   "owners": [
-   "Patton"
+   "Euclid",
+   "Miyamoto",
+   "Patton (publishing)"
   ],
   "stage": "Design",
   "summary": "Wordless math RPG shell: Seed Grove overworld, tile duels, Workshop Isles, familiars.",
   "done": "",
-  "next": "Julius answers the design doc's open questions.",
+  "next": "Julius decides on Miyamoto's first-slice plan and the design doc's open questions.",
   "history": [
    {
     "date": "2026-10-02",
@@ -1654,6 +1670,18 @@ window.ITEMS = [
     "date": "2026-10-19",
     "approx": false,
     "text": "Moved to Design: map v1 and a 36-page story/design doc",
+    "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Miyamoto (game design) joins Euclid (math/skills); Patton on publishing",
+    "kind": "step"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Miyamoto's first read: first slice = Prologue + Pebblebrook + Gate I (45–60 min, graphics frozen); split into two games",
     "kind": "step"
    }
   ],
@@ -4871,6 +4899,12 @@ window.ITEMS = [
     "approx": false,
     "text": "Chronographs to Plutarch; Looseleaf owners; Euclid's Elements card",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-20",
+    "approx": false,
+    "text": "ForgePath owners updated; Graph Lab DNS note",
+    "kind": "step"
    }
   ],
   "lastTouched": "2026-10-19",
@@ -5744,7 +5778,8 @@ window.ITEMS = [
   "realm": "EDUCATION",
   "goal": "g-forgepath",
   "owners": [
-   "Grok Bot"
+   "Miyamoto",
+   "Euclid"
   ],
   "stage": "Idea",
   "summary": "Optionally base ForgePath's worlds on the Mathera era art; they don't have to match.",
@@ -5756,9 +5791,15 @@ window.ITEMS = [
     "approx": false,
     "text": "First discussed: Julius says ForgePath worlds don't have to match the Mathera era art, but could",
     "kind": "first"
+   },
+   {
+    "date": "2026-10-19",
+    "approx": false,
+    "text": "Owners now Miyamoto and Euclid",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-10",
+  "lastTouched": "2026-10-19",
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
@@ -6232,6 +6273,12 @@ window.ITEMS = [
     "date": "2026-10-19",
     "approx": false,
     "text": "Layout finished and handed to Patton for deploy",
+    "kind": "step"
+   },
+   {
+    "date": "2026-10-20",
+    "approx": false,
+    "text": "Not deployed yet; waits on approval and a Privacy page",
     "kind": "step"
    }
   ],
