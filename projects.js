@@ -3,7 +3,7 @@
 window.BOARD_META = {
  "title": "ONTOLOGY Kanban",
  "version": 6,
- "updated": "2026-10-26",
+ "updated": "2026-11-02",
  "stages": [
   "Idea",
   "Planning",
@@ -342,6 +342,7 @@ window.GOALS = [
   "color": "#e85d75",
   "description": "Other standalone math minigame ideas.",
   "owners": [
+   "Don",
    "Grok Bot",
    "Miyamoto",
    "老子",
@@ -930,7 +931,7 @@ window.ITEMS = [
    }
   ],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Add the mathera.ink DNS records (Graph Lab)",
   "versions": [
@@ -1047,7 +1048,7 @@ window.ITEMS = [
    }
   ],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "note": "Part of Quintile, a super-early exploration (2026-09-24) that inspired Mathera; not a predecessor version.",
   "stageNote": "Early exploration that inspired Mathera",
@@ -1095,7 +1096,7 @@ window.ITEMS = [
    }
   ],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "note": "Part of Quintile, a super-early exploration (2026-09-24) that inspired Mathera; not a predecessor version.",
   "stageNote": "Early exploration that inspired Mathera",
@@ -1137,7 +1138,7 @@ window.ITEMS = [
    }
   ],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "note": "Part of Quintile, a super-early exploration (2026-09-24) that inspired Mathera; not a predecessor version.",
   "stageNote": "Early exploration that inspired Mathera",
@@ -1194,7 +1195,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Built (curriculum 0.6.4 done, per Euclid)"
  },
@@ -1222,7 +1223,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -1256,7 +1257,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Triage the curriculum gaps file"
  },
@@ -1297,7 +1298,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Design (research + design PDFs only), paused since ~2026-10-01"
  },
@@ -1331,7 +1332,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Design, parked until after 1.0"
  },
@@ -1365,7 +1366,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "note": "MWA couldn't confirm delivery. A finished Primary-mode vision PDF exists on the box, so it was very likely delivered."
  },
@@ -1399,7 +1400,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (Design): content only, no UI"
  },
@@ -1438,7 +1439,7 @@ window.ITEMS = [
    }
   ],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Add the mathera.ink DNS records (same step as the Mathera card)",
   "health": {
@@ -1458,7 +1459,7 @@ window.ITEMS = [
    "Patton",
    "Euclid"
   ],
-  "stage": "Paused",
+  "stage": "Built / Shipped",
   "summary": "History site: Epochs, a 12×12 Concept Wall, 144 artefact portraits and essays.",
   "done": "",
   "next": "~128 Wall icons, evolution drawers, pixel trophies.",
@@ -1486,9 +1487,15 @@ window.ITEMS = [
     "approx": false,
     "text": "Handed to Math Website Administrator; no commits since 2026-10-01",
     "kind": "step"
+   },
+   {
+    "date": "2026-11-02",
+    "approx": false,
+    "text": "Shipped; idle for now",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-03",
+  "lastTouched": "2026-11-02",
   "source": "Bot reports (2026-10-09)",
   "links": [
    {
@@ -1497,9 +1504,10 @@ window.ITEMS = [
    }
   ],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "note": "Conflict: Euclid (round 1) said Built/Shipped; MWA (owner since 2026-10-03) says Paused, last commit 2026-10-01. Owner's call used.",
+  "stageNote": "Shipped, idle (2026-11-02): live, no open work reported",
   "liveUrl": "https://the-court-press.github.io/math-history-101/",
   "liveLabel": "Open Math History 101"
  },
@@ -1527,7 +1535,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused, waiting on Julius"
  },
@@ -1568,7 +1576,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -1613,7 +1621,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (idle ≥7 days as of 2026-10-14)"
  },
@@ -1685,9 +1693,15 @@ window.ITEMS = [
     "approx": false,
     "text": "Miyamoto's first read: first slice = Prologue + Pebblebrook + Gate I (45–60 min, graphics frozen); split into two games",
     "kind": "step"
+   },
+   {
+    "date": "2026-11-02",
+    "approx": false,
+    "text": "Art style set: 16-bit pixel art; first sample scene and menu options done",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-19",
+  "lastTouched": "2026-11-02",
   "source": "Bot reports (2026-10-09)",
   "links": [
    {
@@ -1696,7 +1710,7 @@ window.ITEMS = [
    }
   ],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Design (Euclid, 2026-10-19)",
   "liveUrl": "https://the-court-press.github.io/forgepath/",
@@ -1740,7 +1754,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (idle ≥7 days as of 2026-10-14)"
  },
@@ -1782,7 +1796,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Answer the Era II redo offer (it reads like a village)",
   "stageNote": "Paused (idle ≥7 days as of 2026-10-14)"
@@ -1819,7 +1833,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (idle ≥7 days as of 2026-10-14)"
  },
@@ -1861,7 +1875,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Review the Era IV v2 (steam-engine mountain city)",
   "stageNote": "Paused (idle ≥7 days as of 2026-10-14)"
@@ -1904,7 +1918,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Review the Era V v2 (stepped marble citadel)",
   "stageNote": "Paused (idle ≥7 days as of 2026-10-14)"
@@ -1953,7 +1967,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Pick the Era VI concept (recommended: cascade gardens; runner-up: river delta)",
   "stageNote": "Design"
@@ -1990,7 +2004,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (idle ≥7 days as of 2026-10-14)"
  },
@@ -2024,7 +2038,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (2026-10-15)"
  },
@@ -2064,7 +2078,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Decide where the factions idea lives: ForgePath or a minigame",
   "stageNote": "Paused (2026-10-15)"
@@ -2110,7 +2124,7 @@ window.ITEMS = [
    }
   ],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Merged into The Road",
   "liveUrl": "https://the-court-press.github.io/precedence/",
@@ -2188,7 +2202,7 @@ window.ITEMS = [
    }
   ],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Play The Road and send feedback before chapter 3",
   "nextTruth": "Does the merged Road + Precedence feel like one game to Julius?",
@@ -2232,7 +2246,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (idle ≥7 days as of 2026-10-14)"
  },
@@ -2244,7 +2258,7 @@ window.ITEMS = [
   "owners": [
    "Patton"
   ],
-  "stage": "Paused",
+  "stage": "Built / Shipped",
   "summary": "Make-24 style four-tile target-number puzzle with light arena duels.",
   "done": "",
   "next": "Julius decides: revive it or fold it into Primary mode.",
@@ -2266,9 +2280,15 @@ window.ITEMS = [
     "approx": false,
     "text": "Kept as tile-entry research once the RPG spun off as Forgepath",
     "kind": "step"
+   },
+   {
+    "date": "2026-11-02",
+    "approx": false,
+    "text": "Shipped; idle for now",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-02",
+  "lastTouched": "2026-11-02",
   "source": "Bot reports (2026-10-09)",
   "links": [
    {
@@ -2277,9 +2297,10 @@ window.ITEMS = [
    }
   ],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Revive OPERATE! or fold it into Primary mode",
+  "stageNote": "Shipped, idle (2026-11-02): live, no open work reported",
   "liveUrl": "https://the-court-press.github.io/operate/",
   "liveLabel": "Play OPERATE!"
  },
@@ -2325,7 +2346,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (idle ≥7 days as of 2026-10-14)"
  },
@@ -2371,7 +2392,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "health": {
    "stranger": true
@@ -2402,7 +2423,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -2458,7 +2479,7 @@ window.ITEMS = [
    }
   ],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Pick a Chronographs lineup and the per-site indicators from Plutarch's proposal",
   "health": {
@@ -2520,7 +2541,7 @@ window.ITEMS = [
    }
   ],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "health": {
    "stranger": true
@@ -2581,7 +2602,7 @@ window.ITEMS = [
    }
   ],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "health": {
    "stranger": true
@@ -2625,7 +2646,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (2026-10-15)"
  },
@@ -2665,7 +2686,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (2026-10-15)"
  },
@@ -2677,7 +2698,7 @@ window.ITEMS = [
   "owners": [
    "Plutarch"
   ],
-  "stage": "Paused",
+  "stage": "Built / Shipped",
   "summary": "Week-by-week WW2 paper atlas: 305-week spine, Logbook/Ruler, photo plates.",
   "done": "",
   "next": "See the follow-up notes.",
@@ -2711,9 +2732,15 @@ window.ITEMS = [
     "approx": false,
     "text": "Attribution edits queued",
     "kind": "step"
+   },
+   {
+    "date": "2026-11-02",
+    "approx": false,
+    "text": "Shipped; idle for now",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-26",
+  "lastTouched": "2026-11-02",
   "source": "Bot reports (2026-10-09)",
   "links": [
    {
@@ -2722,9 +2749,9 @@ window.ITEMS = [
    }
   ],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
-  "stageNote": "Paused 2026-10-08",
+  "stageNote": "Shipped, idle (2026-11-02): live, no open work reported",
   "liveUrl": "https://the-court-press.github.io/ww2-strat-map/",
   "liveLabel": "Open Chronograph III"
  },
@@ -2764,7 +2791,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (2026-10-15)"
  },
@@ -2810,7 +2837,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (2026-10-15)"
  },
@@ -2856,7 +2883,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (2026-10-15)"
  },
@@ -2868,7 +2895,7 @@ window.ITEMS = [
   "owners": [
    "老子"
   ],
-  "stage": "Paused",
+  "stage": "Built / Shipped",
   "summary": "Live garden of 3,600 Traditional characters with exhaustive Zhuyin.",
   "done": "",
   "next": "",
@@ -2896,9 +2923,15 @@ window.ITEMS = [
     "approx": false,
     "text": "Plot 2 (2,400) and Plot 3 (3,600, a13b53b); Julius: finish with the third plot for now",
     "kind": "step"
+   },
+   {
+    "date": "2026-11-02",
+    "approx": false,
+    "text": "Shipped; idle for now",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-01",
+  "lastTouched": "2026-11-02",
   "source": "Bot reports (2026-10-09)",
   "links": [
    {
@@ -2907,9 +2940,9 @@ window.ITEMS = [
    }
   ],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
-  "stageNote": "Paused: 'finish with the third plot for now'",
+  "stageNote": "Shipped, idle (2026-11-02): live, no open work reported",
   "liveUrl": "https://the-court-press.github.io/ziyuan/",
   "liveLabel": "Open 字園 Zìyuán"
  },
@@ -2949,7 +2982,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Plots 4–5 are on hold until you give the go-ahead",
   "stageNote": "Paused (idle ≥7 days as of 2026-10-14)"
@@ -2984,7 +3017,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -3029,7 +3062,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "health": {
    "repeat": true
@@ -3072,7 +3105,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (2026-10-15)"
  },
@@ -3106,7 +3139,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -3146,7 +3179,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "nextTruth": "Would Julius use it instead of a web converter?",
   "stageNote": "Paused (2026-10-15)"
@@ -3175,7 +3208,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -3202,7 +3235,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -3252,7 +3285,7 @@ window.ITEMS = [
    }
   ],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "health": {
    "stranger": true
@@ -3285,7 +3318,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "note": "Reported by both RE/MAX and Carl Weathers; merged.",
   "stageNote": "Built (private repo)"
@@ -3314,7 +3347,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Built in private repo, not live"
  },
@@ -3349,7 +3382,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "note": "Pages link now returns 404 (repo private), so no live button.",
   "stageNote": "Built (private repo)"
@@ -3379,7 +3412,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Built (private repo)"
  },
@@ -3407,7 +3440,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -3434,7 +3467,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -3479,7 +3512,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "decision": "",
   "health": {
@@ -3511,7 +3544,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -3544,7 +3577,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "decision": "",
   "stageNote": "Built (tracker API running)"
@@ -3574,7 +3607,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Idea (floated by Arnold, not started)"
  },
@@ -3602,7 +3635,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -3622,7 +3655,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -3643,7 +3676,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -3664,7 +3697,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -3685,7 +3718,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -3706,7 +3739,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -3741,7 +3774,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Decide the next intake (more Logistics/Body/Republic posters, bigger Antiquity?)",
   "health": {
@@ -3772,7 +3805,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -3799,7 +3832,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -3832,7 +3865,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Decide whether to publish the off-wire house media"
  },
@@ -3854,7 +3887,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -3882,7 +3915,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Pick a name for TRASK / Fake Film School",
   "stageNote": "Paused; had reached Planning"
@@ -3911,7 +3944,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Sign off yes/no on the director's 12 proposals so storyboarding can start",
   "note": "Grok Bot (owner) said 'effectively Paused', but the last work was 2026-10-08, inside the 7-day rule, so it stays in Design.",
@@ -3941,7 +3974,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -3968,7 +4001,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -4001,7 +4034,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -4021,7 +4054,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -4042,7 +4075,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -4063,7 +4096,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -4084,7 +4117,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -4105,7 +4138,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -4127,7 +4160,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -4161,7 +4194,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "OK downloading the Prelinger ads into decade folders (and send any of your own clips)"
  },
@@ -4189,7 +4222,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -4222,7 +4255,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused"
  },
@@ -4250,7 +4283,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -4283,7 +4316,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -4316,7 +4349,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -4343,7 +4376,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -4363,7 +4396,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -4397,7 +4430,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (2026-10-15)"
  },
@@ -4425,7 +4458,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "health": {
    "repeat": true
@@ -4456,7 +4489,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -4476,7 +4509,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -4497,7 +4530,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -4518,7 +4551,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "health": {
    "repeat": true
@@ -4543,7 +4576,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -4564,7 +4597,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -4585,7 +4618,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -4619,7 +4652,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -4646,7 +4679,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -4666,7 +4699,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -4687,7 +4720,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -4721,7 +4754,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -4754,7 +4787,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -4787,7 +4820,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -4880,9 +4913,15 @@ window.ITEMS = [
     "approx": false,
     "text": "Weekly refresh: new game card, fractions pages cleared, share pack ready",
     "kind": "step"
+   },
+   {
+    "date": "2026-11-02",
+    "approx": false,
+    "text": "Weekly refresh: idle live sites marked shipped, ForgePath art style, two new game ideas",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-26",
+  "lastTouched": "2026-11-02",
   "source": "Bot reports (2026-10-09)",
   "links": [
    {
@@ -4891,7 +4930,7 @@ window.ITEMS = [
    }
   ],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "health": {
    "stranger": true,
@@ -4924,7 +4963,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "health": {
    "repeat": true
@@ -4960,7 +4999,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "health": {
    "repeat": true
@@ -4991,7 +5030,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -5029,7 +5068,7 @@ window.ITEMS = [
    }
   ],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "health": {
    "stranger": true
@@ -5067,7 +5106,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "note": "Conflict: Euclid calls this icon set Abandoned; MWA still lists '~128 Wall icons' as Math History 101's next step. Both are kept: this note is the abandoned style, the remaining icons stay on Math History 101."
  },
@@ -5101,7 +5140,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (2026-10-15)"
  },
@@ -5141,7 +5180,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (2026-10-15)"
  },
@@ -5181,7 +5220,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (2026-10-15)"
  },
@@ -5221,7 +5260,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (2026-10-15)"
  },
@@ -5261,7 +5300,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (2026-10-15)"
  },
@@ -5295,7 +5334,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (idle ≥7 days as of 2026-10-14)"
  },
@@ -5316,7 +5355,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -5337,7 +5376,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -5365,7 +5404,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "health": {
    "repeat": true
@@ -5401,7 +5440,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Superseded"
  },
@@ -5435,7 +5474,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Superseded"
  },
@@ -5469,7 +5508,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Superseded"
  },
@@ -5503,7 +5542,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Superseded"
  },
@@ -5537,7 +5576,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (2026-10-15)"
  },
@@ -5558,7 +5597,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -5579,7 +5618,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -5600,7 +5639,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -5628,7 +5667,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -5655,7 +5694,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -5688,7 +5727,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "note": "Round 1 said the plates were handed to another bot; RE/MAX's round 2 says Abandoned on its side."
  },
@@ -5722,7 +5761,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (2026-10-15)"
  },
@@ -5757,7 +5796,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Decide whether ForgePath's worlds follow the Mathera era art",
   "linkedTo": "g-mathera",
@@ -5804,7 +5843,7 @@ window.ITEMS = [
    }
   ],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "health": {
    "stranger": true
@@ -5836,7 +5875,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -5881,7 +5920,7 @@ window.ITEMS = [
    }
   ],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "health": {
    "stranger": true
@@ -5914,7 +5953,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -5947,7 +5986,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Paused (2026-10-17)"
  },
@@ -5975,7 +6014,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -6008,7 +6047,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -6060,7 +6099,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Approve a name for the FDP curriculum"
  },
@@ -6100,7 +6139,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Give Gideon the consent-pack details: contact email, feedback retention, governing law"
  },
@@ -6135,7 +6174,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Final yes on 'Seven worlds of math' as the official tagline (and Don's revised copy)"
  },
@@ -6187,7 +6226,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Built (Don: cards finished; titles approved 2026-10-14)"
  },
@@ -6252,7 +6291,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "OK the mathera.app suite home deploy",
   "stageNote": "Paused 2026-10-26 (no movement since 2026-10-20; waits on Julius's OK)"
@@ -6284,7 +6323,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "OK publishing the fractions history pages",
   "stageNote": "Done and cleared; not published"
@@ -6320,7 +6359,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -6372,13 +6411,19 @@ window.ITEMS = [
     "approx": false,
     "text": "A new guides shelf and Chapter 11 staged; waiting on approval",
     "kind": "step"
+   },
+   {
+    "date": "2026-11-02",
+    "approx": false,
+    "text": "A 66-page guide is live as Guide 2; a new 22-page chapter is designed and waiting on approval",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-26",
+  "lastTouched": "2026-11-02",
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -6412,7 +6457,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -6470,7 +6515,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Approve the Looseleaf share pack",
   "stageNote": "In Progress (Bob: v0.4 in Julius's testing)"
@@ -6500,7 +6545,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "decision": ""
  },
@@ -6528,7 +6573,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false
  },
  {
@@ -6555,7 +6600,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Answer Euclid's 5 Era II deep-dive questions"
  },
@@ -6578,7 +6623,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -6619,7 +6664,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "OK publishing the FDP history series",
   "stageNote": "Cleared; not published"
@@ -6641,7 +6686,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "historyNote": "History kept private."
  },
@@ -6675,7 +6720,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Decide whether (and how) to publish the Elements site",
   "stageNote": "In Progress (unpublished)"
@@ -6713,7 +6758,7 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": true,
   "decision": "Pick a final name for the defense math game",
   "stageNote": "Playable test build; name pending"
@@ -6743,8 +6788,120 @@ window.ITEMS = [
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "waitingOnJulius": false,
   "stageNote": "Done (internal)"
+ },
+ {
+  "id": "kart-racer",
+  "title": "Math kart racer (answer lanes)",
+  "realm": "EDUCATION",
+  "goal": "g-games",
+  "owners": [
+   "Don"
+  ],
+  "stage": "Idea",
+  "summary": "Kids' kart racer: players steer into one of three coloured answer lanes.",
+  "done": "",
+  "next": "",
+  "history": [
+   {
+    "date": "2026-11-02",
+    "approx": false,
+    "text": "Concept (Don)",
+    "kind": "first"
+   }
+  ],
+  "lastTouched": "2026-11-02",
+  "source": "Bot reports (2026-10-09)",
+  "links": [],
+  "files": [],
+  "updated": "2026-11-02",
+  "waitingOnJulius": true,
+  "decision": "Want mockups of the kart answer gate?"
+ },
+ {
+  "id": "duel-fighter",
+  "title": "Mathematicians' duels fighting game",
+  "realm": "EDUCATION",
+  "goal": "g-games",
+  "owners": [
+   "Don"
+  ],
+  "stage": "Idea",
+  "summary": "Kids' fighting game built on historical mathematicians' duels (Cardano, Tartaglia, Newton and others).",
+  "done": "",
+  "next": "",
+  "history": [
+   {
+    "date": "2026-11-02",
+    "approx": false,
+    "text": "Concept (Don)",
+    "kind": "first"
+   }
+  ],
+  "lastTouched": "2026-11-02",
+  "source": "Bot reports (2026-10-09)",
+  "links": [],
+  "files": [],
+  "updated": "2026-11-02",
+  "waitingOnJulius": true,
+  "decision": "Want mockups of the fighters' character-select screen?"
+ },
+ {
+  "id": "snes-showcase",
+  "title": "SNES-style math showcase (20 genre ideas)",
+  "realm": "EDUCATION",
+  "goal": "g-games",
+  "owners": [
+   "Don"
+  ],
+  "stage": "Built / Shipped",
+  "summary": "A 22-page internal PDF of 20 SNES-genre ideas for math games.",
+  "done": "",
+  "next": "",
+  "history": [
+   {
+    "date": "2026-11-02",
+    "approx": false,
+    "text": "Delivered to Julius (Don)",
+    "kind": "first"
+   }
+  ],
+  "lastTouched": "2026-11-02",
+  "source": "Bot reports (2026-10-09)",
+  "links": [],
+  "files": [],
+  "updated": "2026-11-02",
+  "waitingOnJulius": false,
+  "stageNote": "Delivered (internal PDF)"
+ },
+ {
+  "id": "apple-dev",
+  "title": "Apple Developer enrollment",
+  "realm": "TOOLS",
+  "goal": "g-dev",
+  "owners": [
+   "Grok Bot"
+  ],
+  "stage": "Planning",
+  "summary": "Apple Developer Program enrollment so apps can ship.",
+  "done": "",
+  "next": "Complete the enrollment.",
+  "history": [
+   {
+    "date": "2026-11-02",
+    "approx": false,
+    "text": "Approved; not done yet",
+    "kind": "first"
+   }
+  ],
+  "lastTouched": "2026-11-02",
+  "source": "Bot reports (2026-10-09)",
+  "links": [],
+  "files": [],
+  "updated": "2026-11-02",
+  "waitingOnJulius": false,
+  "stageNote": "Approved, not done"
  }
 ];
