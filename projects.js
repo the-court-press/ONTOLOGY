@@ -506,7 +506,7 @@ window.GOALS = [
   "color": "#455a64",
   "description": "Long-horizon research (details private).",
   "owners": [
-   "Gekko",
+   "Gavin Belson",
    "Patton"
   ],
   "history": []
@@ -1299,7 +1299,8 @@ window.ITEMS = [
   "links": [],
   "files": [],
   "updated": "2026-11-02",
-  "waitingOnJulius": false,
+  "waitingOnJulius": true,
+  "decision": "Does Wayfinder replace or contain Root Check?",
   "stageNote": "Design (research + design PDFs only), paused since ~2026-10-01"
  },
  {
@@ -1401,7 +1402,8 @@ window.ITEMS = [
   "links": [],
   "files": [],
   "updated": "2026-11-02",
-  "waitingOnJulius": false,
+  "waitingOnJulius": true,
+  "decision": "Add 'dialect skills' to The Notebooks?",
   "stageNote": "Paused (Design): content only, no UI"
  },
  {
@@ -1698,6 +1700,12 @@ window.ITEMS = [
     "date": "2026-11-02",
     "approx": false,
     "text": "Art style set: 16-bit pixel art; first sample scene and menu options done",
+    "kind": "step"
+   },
+   {
+    "date": "2026-11-02",
+    "approx": false,
+    "text": "History & legends written; tech-tree menu in design",
     "kind": "step"
    }
   ],
@@ -2481,7 +2489,7 @@ window.ITEMS = [
   "files": [],
   "updated": "2026-11-02",
   "waitingOnJulius": true,
-  "decision": "Pick a Chronographs lineup and the per-site indicators from Plutarch's proposal",
+  "decision": "Pick the Chronographs lineup and indicators",
   "health": {
    "stranger": true
   },
@@ -2542,7 +2550,8 @@ window.ITEMS = [
   ],
   "files": [],
   "updated": "2026-11-02",
-  "waitingOnJulius": false,
+  "waitingOnJulius": true,
+  "decision": "OK Ari's S&P edits to the Dow timeline",
   "health": {
    "stranger": true
   },
@@ -2750,7 +2759,8 @@ window.ITEMS = [
   ],
   "files": [],
   "updated": "2026-11-02",
-  "waitingOnJulius": false,
+  "waitingOnJulius": true,
+  "decision": "OK Ari's S&P edits to the WW2 map",
   "stageNote": "Shipped, idle (2026-11-02): live, no open work reported",
   "liveUrl": "https://the-court-press.github.io/ww2-strat-map/",
   "liveLabel": "Open Chronograph III"
@@ -3056,9 +3066,15 @@ window.ITEMS = [
     "approx": false,
     "text": "46 of 744 taught",
     "kind": "step"
+   },
+   {
+    "date": "2026-11-02",
+    "approx": false,
+    "text": "58 of 744 taught",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-26",
+  "lastTouched": "2026-11-02",
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
@@ -4609,7 +4625,7 @@ window.ITEMS = [
   "owners": [
    "Q"
   ],
-  "stage": "Planning",
+  "stage": "Built / Shipped",
   "summary": "Mac & security upkeep (private).",
   "done": "",
   "next": "",
@@ -4918,6 +4934,12 @@ window.ITEMS = [
     "date": "2026-11-02",
     "approx": false,
     "text": "Weekly refresh: idle live sites marked shipped, ForgePath art style, two new game ideas",
+    "kind": "step"
+   },
+   {
+    "date": "2026-11-02",
+    "approx": false,
+    "text": "Second pass: ForgePath Worlds design draft, Kitchen Library guides published",
     "kind": "step"
    }
   ],
@@ -5774,10 +5796,10 @@ window.ITEMS = [
    "Miyamoto",
    "Euclid"
   ],
-  "stage": "Idea",
+  "stage": "Design",
   "summary": "Optionally base ForgePath's worlds on the Mathera era art; they don't have to match.",
   "done": "",
-  "next": "Julius decides.",
+  "next": "Build World 1 and playtest.",
   "history": [
    {
     "date": "2026-10-10",
@@ -5790,17 +5812,30 @@ window.ITEMS = [
     "approx": false,
     "text": "Owners now Miyamoto and Euclid",
     "kind": "step"
+   },
+   {
+    "date": "2026-10-30",
+    "approx": false,
+    "text": "Worlds 1–2 design draft delivered",
+    "kind": "step"
+   },
+   {
+    "date": "2026-11-02",
+    "approx": false,
+    "text": "Math reviewed",
+    "kind": "step"
    }
   ],
-  "lastTouched": "2026-10-19",
+  "lastTouched": "2026-11-02",
   "source": "Bot reports (2026-10-09)",
   "links": [],
   "files": [],
   "updated": "2026-11-02",
   "waitingOnJulius": true,
-  "decision": "Decide whether ForgePath's worlds follow the Mathera era art",
+  "decision": "ForgePath §11 checklist: egg-box panel, Old Tally vs Mossback, Differentia's pronoun, clashes",
   "linkedTo": "g-mathera",
-  "nextTruth": "Do ForgePath's worlds follow the era art or not?"
+  "nextTruth": "Do ForgePath's worlds follow the era art or not?",
+  "stageNote": "Design draft done"
  },
  {
   "id": "sites-index",
@@ -5996,7 +6031,7 @@ window.ITEMS = [
   "realm": "LIFE",
   "goal": "g-invest",
   "owners": [
-   "Gekko"
+   "Gavin Belson"
   ],
   "stage": "Idea",
   "summary": "Long-horizon land research (private).",
@@ -6023,7 +6058,7 @@ window.ITEMS = [
   "realm": "LIFE",
   "goal": "g-invest",
   "owners": [
-   "Gekko"
+   "Gavin Belson"
   ],
   "stage": "In Progress",
   "summary": "Structured robotaxi industry monitoring: deployed vs announced.",
@@ -6334,7 +6369,7 @@ window.ITEMS = [
   "realm": "LIFE",
   "goal": "g-invest",
   "owners": [
-   "Gekko",
+   "Gavin Belson",
    "Patton"
   ],
   "stage": "Built / Shipped",
@@ -6410,6 +6445,12 @@ window.ITEMS = [
     "date": "2026-10-26",
     "approx": false,
     "text": "A new guides shelf and Chapter 11 staged; waiting on approval",
+    "kind": "step"
+   },
+   {
+    "date": "2026-10-28",
+    "approx": false,
+    "text": "Guide 1, Chapter 11 and Guide 2 published",
     "kind": "step"
    },
    {
@@ -6602,7 +6643,7 @@ window.ITEMS = [
   "files": [],
   "updated": "2026-11-02",
   "waitingOnJulius": true,
-  "decision": "Answer Euclid's 5 Era II deep-dive questions"
+  "decision": "Run the Nov 9 deep-dive as planned, or shift it a week?"
  },
  {
   "id": "private-media-app",
